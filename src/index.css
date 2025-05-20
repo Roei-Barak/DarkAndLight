@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Smooth theme transition for specific properties */
+.transition-theme {
+  @apply transition-all duration-500 ease-in-out;
+}
